@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block crawling of API routes that don't provide public content
+Disallow: /api/
+
+# Allow specific API routes that provide useful content
+Allow: /health
+
+# Sitemap location
+Sitemap: https://tweetpilot.com/sitemap.xml
+
+# Crawl delay for politeness
+Crawl-delay: 1
